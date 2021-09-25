@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    font-size: 10rem;
+}
+h1{
+    font-size: 10rem;
+}
+.header{
+    
+    background: url(../image/header-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.container{
+    height: 3vw;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0%auto;
+}
+li{
+    display: inline-block;
+    padding: 0.5vw;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+h1,P{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.nav{
+    
+}
+.nav .ul{
+    float: right;
+}
+.nav .logo{
+    float: left;
+    padding: 1vw;
+    font-size: 2vw;
+}
+.nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.p1{
+    color: white;
+    font-size: 2vwvw;
+}
+.header2{
+    
+    display: inline-block;
+    margin: 17vw 20vw;
+    text-align: center;
+    background-size:auto;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 1000;
+    font-size: 6em;
+    margin: 0.5em 0em;
+    color: tomato;
+}
+.btn-primary{
+    background-color: white;
+    border-radius: 10rem;
+}
+.btn-primary:hover{
+    background-color: white;
+}
+/*  --------------------show cASE............. */
+.showcase{
+    background-color: lightgray;
+    padding: 30px;
+}
+.row{
+
+    height: 350px;
+    margin: 1%;
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.imgbox,.txtbox{
+
+}
+.txtbox1{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 3rem;
+}
+.imgbox1{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/showcase-photo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgbox2{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/showcase-photo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.name1,p{
+    color: black;
+    font-size: 1.7vw;
+    bottom: 40%;
+}
+.txtbox2{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+}
+/*  --------------------about............. */
+.about{
+    padding: 5rem 0;
+    margin: 15%;
+    height: 35vw;
+    margin-top: 5%;
+
+}
+.container2{
+    border-bottom:  orangered solid 2px;
+    height: 3vw;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0%auto;
+}
+.about-heading{
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.about-par{
+    padding-top: 1vw;
+    font-size: 1vw;
+}
+/*  --------------------about wraping............. */
+.LIST{
+    display: block;
+    font-size: 1vw;
+}
+.LIST::before{
+    content: '\2713';
+    color: orangered;
+    clear: both;
+    
+}
+ul{
+    list-style-type:none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.about-wraper{
+    padding: 2vw;
+    height: 10vw;
+}
+/*  --------------------about div-items............. */
+.main-div-item{
+    height: 5vw;
+    margin-top: 2vw;
+}
+.div-item{
+    height: 2vw;
+    display: inline-block;
+    margin-left: 6vw;
+    text-align: center;
+}
+span{
+    color: orangered;
+    font-size: 2vw;
+}
+.pa{
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+.end{
+    border: peachpuff solid 2px;
+    height: 6vw;
+    background-color: orangered;
+}
+.en{
+    border: white solid 2px;
+    height: 4vw;
+    margin-top: 1vw;
+    width: 20vw;
+    float: right;
+    margin-right: 3vw;
+}
+.pend{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1vw;
+}
+.e{
+    float: left;
+}
+.pendd{
+    color: white;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
